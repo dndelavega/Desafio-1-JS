@@ -1,0 +1,38 @@
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10%;
+  }
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+ #image_bord {
+  width: 30rem;
+  border: none;
+ }
+
+ #image_stikers {
+  width: 10rem;
+  border: none;
+ }
+
+ .result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+ }
+ button {
+  height: 40px;
+  width: 200px;
+}
+
+.check {
+  position: fixed;
+  right: 42%;
+  top: 50%;
+}
